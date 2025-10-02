@@ -1,16 +1,43 @@
-# React + Vite
+# Crucial Sin - Tienda de Guitarras Gibson (Ficticia)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Crucial Sin** es una tienda online **ficticia** en Argentina especializada en guitarras **Gibson** de alta gama. Nuestro enfoque está en ofrecer una experiencia premium, con una selección curada de modelos únicos, atención personalizada y un proceso de compra centrado en el contacto directo con el cliente.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 ¿Qué ofrecemos?
 
-## React Compiler
+- Guitarras **Gibson originales y exclusivas**.
+- Envíos a todo el país.
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🎸 Filosofía
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+No somos una tienda más. **Crucial Sin** nace de la pasión por el rock y por los instrumentos que marcaron la historia. Elegimos cada guitarra como si fuera para nosotros. Creemos que una Gibson no se vende: se **presenta, se conoce y se elige**.
+
+---
+
+## 🛠️ Tecnologías usadas
+
+- **React** y **React DOM**
+- **CSS3
+- **Font Awesome** (íconos)
+- **Google Fonts** (Poppins)
+- **Vercel** (hosting)
+
+---
+
+## ⚙️ Instalación y Dependencias
+
+Para correr el proyecto localmente:
+
+```bash
+# Clonar el repositorio
+git clone https://github.com/JulianGiansanti7/CreaTuLanding1-Giansanti.git
+cd CreaTuLanding1-Giansanti
+
+# Instalar todas las dependencias
+npm install @fontsource/poppins@^5.2.7 @fortawesome/fontawesome-svg-core@^7.1.0 @fortawesome/free-solid-svg-icons@^7.1.0 @fortawesome/react-fontawesome@^3.0.2
+
+# Ejecutar en modo desarrollo
+npm run dev
