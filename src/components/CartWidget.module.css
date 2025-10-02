@@ -1,0 +1,16 @@
+
+.cart{
+    font-size: 28px;
+    cursor: pointer;
+    color: #aeaeae;
+    
+}
+.cart:hover{
+    transition: all 0.5s ease;
+    color: #d7d6d6;
+    transform: scale(1.05);
+}
+
+.cant{
+    color: #aeaeae;
+}
