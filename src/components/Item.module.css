@@ -1,0 +1,51 @@
+
+.itemCard{
+    max-width: 350px;
+    border: 1px solid #c7c7c7;
+    padding: 12px;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.itemImage{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.itemDetails{
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.itemName{
+    font-size: 16px ;
+    text-transform: uppercase;
+}
+
+.itemPrice{
+    font-size: 12px;
+}
+
+.itemButton{
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.itemButton:hover{
+    background-color: #212121;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}

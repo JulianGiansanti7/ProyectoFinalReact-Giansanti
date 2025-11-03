@@ -1,4 +1,8 @@
 
+.link{
+    text-decoration: none;
+}
+
 .cart{
     font-size: 28px;
     cursor: pointer;
