@@ -1,5 +1,5 @@
-
 import styles from './ItemDetail.module.css';
+import ItemCount from './ItemCount';
 
 function ItemDetail({ item }) {
   return (
@@ -8,7 +8,10 @@ function ItemDetail({ item }) {
       <div className={styles.Detail}>
         <h2>{item.nombre}</h2>
         <p>Precio: ${item.precio}</p>
-        <button className={styles.DetailButton} >Agregar al carrito</button>
+        <p>Stock: {item.stock}</p>
+        <div>
+          <ItemCount item={item} />
+        </div>
       </div>
     </div>
   );

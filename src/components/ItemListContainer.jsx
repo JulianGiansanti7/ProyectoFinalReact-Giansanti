@@ -1,35 +1,29 @@
-import { useEffect, useState } from 'react';
-import style from './ItemListContainer.module.css';
-import ItemList from './ItemList';
-import { itemsData } from '../data/products';
+import { useEffect, useState } from "react";
+import { collection, getDocs } from "firebase/firestore";
+import { db } from '../firebase/config.js'
+import ItemList from "./ItemList";
 
-const fetchItems = () => {
-    return new Promise((resolve) => {
-        setTimeout(() => {
-        resolve(itemsData);
-        }, 2000);
-    });
-    };
+function ItemListContainer() {
+  const [items, setItems] = useState([]);
+  const [loading, setLoading] = useState(true);
 
-const ItemListContainer = ({ greeting }) => {
-    const [items, setItems] = useState([]);
+  useEffect(() => {
+    const productsCollection = collection(db, "items");
 
-    useEffect(() => {
-        fetchItems().then((items) => setItems(items))
-    }, []);
+    getDocs(productsCollection)
+      .then((snapshot) => {
+        const productos = snapshot.docs.map((doc) => ({
+          id: doc.id,
+          ...doc.data()
+        }));
+        setItems(productos);
+      })
+      .finally(() => setLoading(false));
+  }, []);
 
-    return (
-        <div className={style.container}>
-            <h1>{greeting}</h1>
-            <h2>Lista de Productos</h2>
-            {items.length === 0 ?
-            (<p>Cargando...</p>) :
-            (
-                <ItemList items = {items} />
-            )}
-        </div>
-        
-    )
+  if (loading) return <p>Cargando productos...</p>;
+
+  return <ItemList items={items} />;
 }
 
 export default ItemListContainer;

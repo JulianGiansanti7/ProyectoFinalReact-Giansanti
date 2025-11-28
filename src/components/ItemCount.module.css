@@ -1,0 +1,45 @@
+
+.ItemContContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.countContainer{
+    display: flex;
+}
+
+.ResAndSumButton{
+    background-color: #000;
+    color: #fff;
+    padding: 4px;
+    cursor: pointer;
+    border: none;
+}
+
+.ResAndSumButton:hover{
+    background-color: #212121;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.counter{
+    background-color: rgb(228, 228, 228);
+    width: 60px;
+    text-align: center;
+    border: none;
+}
+
+.AddButton{
+    padding: 8px;
+    background-color: #000;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.AddButton:hover{
+    background-color: #212121;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}

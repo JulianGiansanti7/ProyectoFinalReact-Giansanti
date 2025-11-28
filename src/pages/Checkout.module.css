@@ -1,0 +1,51 @@
+.CheckoutContainer {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 12px;
+  background: #f7f7f7;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.Form input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.Button {
+  padding: 12px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.Success {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.GoHome {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 14px;
+  background: #000;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}

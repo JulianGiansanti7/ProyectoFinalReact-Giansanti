@@ -1,0 +1,112 @@
+
+.CartContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.CartProducts{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.Product{
+    padding: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid #bebebe;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+
+.ImgProd{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.NameProd{
+    width: 300px;
+}
+
+.DelButton{
+    border: none;
+    background: none;
+    color: #949494;
+    cursor: pointer;
+}
+
+.DelButton:hover{
+    text-decoration: underline;
+}
+
+.ProdInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: self-start;
+}
+
+.PriceContainer{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ProdPrice{
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    gap: 20px;
+}
+
+.TotalPrice{
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.Clear{
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.Clear:hover{
+    text-decoration: underline;
+}
+
+.BuyButton{
+    border: none;
+    background: transparent;
+}
+
+.ButtonLink{
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    background-color: #000;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 8px 20vw;
+    cursor: pointer;
+}
+
+.IsEmpty{
+    text-align: center;
+    margin-top: 8px;
+}
+
