@@ -11,19 +11,21 @@
 
 ---
 
-## 🎸 Filosofía
+## 🛒 E-commerce React + Firebase
 
-No somos una tienda más. **Crucial Sin** nace de la pasión por el rock y por los instrumentos que marcaron la historia. Elegimos cada guitarra como si fuera para nosotros. Creemos que una Gibson no se vende: se **presenta, se conoce y se elige**.
+Este proyecto es una **Single Page Application (SPA)** desarrollada con **React** que simula una tienda online.  
+Incluye navegación dinámica, detalle de productos, carrito persistente con LocalStorage y conexión a **Firebase Firestore** para obtener los productos.
 
 ---
 
 ## 🛠️ Tecnologías usadas
 
-- **React** y **React DOM**
-- **CSS3
-- **Font Awesome** (íconos)
-- **Google Fonts** (Poppins)
-- **Vercel** (hosting)
+- **React** (Vite)
+- **React Router DOM**
+- **Firebase Firestore**
+- **Context API** para manejo global del carrito
+- **CSS Modules**
+- **FontAwesome** (íconos del carrito)
 
 ---
 
@@ -33,8 +35,8 @@ Para correr el proyecto localmente:
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/JulianGiansanti7/CreaTuLanding1-Giansanti.git
-cd CreaTuLanding1-Giansanti
+git clone https://github.com/JulianGiansanti7/ProyectoFinalReact-Giansanti.git
+cd ProyectoFinalReact-Giansanti
 
 # Instalar todas las dependencias
 npm install @fontsource/poppins@^5.2.7 @fortawesome/fontawesome-svg-core@^7.1.0 @fortawesome/free-solid-svg-icons@^7.1.0 @fortawesome/react-fontawesome@^3.0.2
